@@ -51,6 +51,8 @@
 		17F9A2EA1DA9F32F00512756 /* Utils+FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2E91DA9F32F00512756 /* Utils+FileManager.m */; };
 		17F9A2ED1DA9F40700512756 /* Utils+Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2EC1DA9F40700512756 /* Utils+Camera.m */; };
 		17F9A2F11DA9F5CA00512756 /* RLTwinkleLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2F01DA9F5CA00512756 /* RLTwinkleLoadView.m */; };
+		17F9A2F51DA9F6E600512756 /* RLStarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2F41DA9F6E600512756 /* RLStarButton.m */; };
+		17F9A2F91DA9F79400512756 /* RLCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2F81DA9F79400512756 /* RLCopyLabel.m */; };
 		F117327DFE0AEEA51DBB1D08 /* libPods-RLProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 432612644F6ACBE6E5509F40 /* libPods-RLProject.a */; };
 /* End PBXBuildFile section */
 
@@ -161,6 +163,10 @@
 		17F9A2EC1DA9F40700512756 /* Utils+Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Utils+Camera.m"; sourceTree = "<group>"; };
 		17F9A2EF1DA9F5CA00512756 /* RLTwinkleLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLTwinkleLoadView.h; sourceTree = "<group>"; };
 		17F9A2F01DA9F5CA00512756 /* RLTwinkleLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLTwinkleLoadView.m; sourceTree = "<group>"; };
+		17F9A2F31DA9F6E600512756 /* RLStarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLStarButton.h; sourceTree = "<group>"; };
+		17F9A2F41DA9F6E600512756 /* RLStarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLStarButton.m; sourceTree = "<group>"; };
+		17F9A2F71DA9F79400512756 /* RLCopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLCopyLabel.h; sourceTree = "<group>"; };
+		17F9A2F81DA9F79400512756 /* RLCopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLCopyLabel.m; sourceTree = "<group>"; };
 		432612644F6ACBE6E5509F40 /* libPods-RLProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RLProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3F1B8732BA17574C68D15D /* Pods-RLProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RLProject/Pods-RLProject.release.xcconfig"; sourceTree = "<group>"; };
 		C405C332266B12003B4F6133 /* Pods-RLProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RLProject/Pods-RLProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -336,6 +342,8 @@
 		17F9A2581DA9E4E600512756 /* 通用UI */ = {
 			isa = PBXGroup;
 			children = (
+				17F9A2F61DA9F77C00512756 /* RLCopyLabel */,
+				17F9A2F21DA9F6C900512756 /* RLStarButton */,
 				17F9A2EE1DA9F5AC00512756 /* RLTwinkleLoadView */,
 				17F9A2E11DA9EEA900512756 /* ZTHNoDataView */,
 			);
@@ -551,6 +559,24 @@
 				17F9A2F01DA9F5CA00512756 /* RLTwinkleLoadView.m */,
 			);
 			path = RLTwinkleLoadView;
+			sourceTree = "<group>";
+		};
+		17F9A2F21DA9F6C900512756 /* RLStarButton */ = {
+			isa = PBXGroup;
+			children = (
+				17F9A2F31DA9F6E600512756 /* RLStarButton.h */,
+				17F9A2F41DA9F6E600512756 /* RLStarButton.m */,
+			);
+			path = RLStarButton;
+			sourceTree = "<group>";
+		};
+		17F9A2F61DA9F77C00512756 /* RLCopyLabel */ = {
+			isa = PBXGroup;
+			children = (
+				17F9A2F71DA9F79400512756 /* RLCopyLabel.h */,
+				17F9A2F81DA9F79400512756 /* RLCopyLabel.m */,
+			);
+			path = RLCopyLabel;
 			sourceTree = "<group>";
 		};
 		64373018B75D5429453F7EB7 /* Pods */ = {
@@ -772,6 +798,7 @@
 				17F9A2731DA9E67800512756 /* ZTHSandbox.m in Sources */,
 				17F9A2D61DA9E90000512756 /* UIImage+ZTHAlpha.m in Sources */,
 				17F9A2CC1DA9E90000512756 /* NSString+Safe.m in Sources */,
+				17F9A2F51DA9F6E600512756 /* RLStarButton.m in Sources */,
 				17F9A2DB1DA9E90000512756 /* UIImageView+load.m in Sources */,
 				17F9A2ED1DA9F40700512756 /* Utils+Camera.m in Sources */,
 				17F9A2D81DA9E90000512756 /* UIImage+ZTHResize.m in Sources */,
@@ -784,6 +811,7 @@
 				17F9A2E71DA9EF2400512756 /* Utils.m in Sources */,
 				17F9A21C1DA9CE5E00512756 /* main.m in Sources */,
 				17F9A2D41DA9E90000512756 /* UIImage+ImageEffects.m in Sources */,
+				17F9A2F91DA9F79400512756 /* RLCopyLabel.m in Sources */,
 				17F9A2E01DA9E90000512756 /* UIViewController+DismissKeyboard.m in Sources */,
 				17F9A2281DA9CE5E00512756 /* RLProject.xcdatamodeld in Sources */,
 				17F9A2DE1DA9E90000512756 /* UITableView+noDataDefaultView.m in Sources */,
