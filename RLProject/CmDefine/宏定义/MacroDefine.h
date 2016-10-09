@@ -51,26 +51,26 @@ return shared##className; \
 #define kCustomFontName          @"Heiti SC"  //HYQiHei-EZJ， PingFang_SC_Regular  PingFangSC-Regular
 #define fontWithSize(v)         [UIFont fontWithName:kCustomFontName size:v] //oldHelvetica
 
-#define kAppDefaultColor        UIColorFromRGB(0x3ec0f8)//整个APP蓝色 跟蓝色字体
-#define kBGColor                UIColorFromRGB(0xf7f7f8)//常用背景色(界面背景色)
-#define kBGPlaceHolderColor     UIColorFromRGB(0xe0e0e0)//占位图背景色
-#define kGrayColor              UIColorFromRGB(0xdedfe0)//分割线颜色、描边、提示字
-#define kOrangeColor            UIColorFromRGB(0xf37346)//橙色(提示、警示性文字)
+#define kAppDefaultColor        UIColorFromRGBV(0x3ec0f8)//整个APP蓝色 跟蓝色字体
+#define kBGColor                UIColorFromRGBV(0xf7f7f8)//常用背景色(界面背景色)
+#define kBGPlaceHolderColor     UIColorFromRGBV(0xe0e0e0)//占位图背景色
+#define kGrayColor              UIColorFromRGBV(0xdedfe0)//分割线颜色、描边、提示字
+#define kOrangeColor            UIColorFromRGBV(0xf37346)//橙色(提示、警示性文字)
 //文字颜色
-#define kBlackTextColor         UIColorFromRGB(0x222222)//黑色文字(标题、内容性文字)
-#define kBlueTextColor          UIColorFromRGB(0x00baff)//蓝色文字
-#define kDeepBlueTextColor      UIColorFromRGB(0x2b4985)//深蓝色文字
-#define kWhiteTextColor         UIColorFromRGB(0xffffff)//白色文字
-#define kLightWhiteTextColor    UIColorFromRGB(0xc6f0ff)//浅白色文字
-#define kTabTextColor           UIColorFromRGB(0x666666)//底部标签文字
-#define kGrayTextColor          UIColorFromRGB(0x999999)//灰色文字
-#define kLightGrayTextColor     UIColorFromRGB(0x999999)//浅灰色文字(辅助性文字)
-#define kTipTextColor           UIColorFromRGB(0xcccccc)//提示字
-#define kPressedCellColor       UIColorFromRGB(0xe9ebed)// tableViewCell选中的颜色
+#define kBlackTextColor         UIColorFromRGBV(0x222222)//黑色文字(标题、内容性文字)
+#define kBlueTextColor          UIColorFromRGBV(0x00baff)//蓝色文字
+#define kDeepBlueTextColor      UIColorFromRGBV(0x2b4985)//深蓝色文字
+#define kWhiteTextColor         UIColorFromRGBV(0xffffff)//白色文字
+#define kLightWhiteTextColor    UIColorFromRGBV(0xc6f0ff)//浅白色文字
+#define kTabTextColor           UIColorFromRGBV(0x666666)//底部标签文字
+#define kGrayTextColor          UIColorFromRGBV(0x999999)//灰色文字
+#define kLightGrayTextColor     UIColorFromRGBV(0x999999)//浅灰色文字(辅助性文字)
+#define kTipTextColor           UIColorFromRGBV(0xcccccc)//提示字
+#define kPressedCellColor       UIColorFromRGBV(0xe9ebed)// tableViewCell选中的颜色
 //按钮
-#define kCommonBtnBGColor       UIColorFromRGB(0x00baff)//蓝色(默认颜色)
-#define kCommonBtnTouchedBGColor    UIColorFromRGB(0x5db9ff)//蓝色(点击颜色)
-#define kCommonBtnDisableBGColor    UIColorFromRGB(0xb4b4b4)//灰色(禁用颜色)
+#define kCommonBtnBGColor           UIColorFromRGBV(0x00baff)//蓝色(默认颜色)
+#define kCommonBtnTouchedBGColor    UIColorFromRGBV(0x5db9ff)//蓝色(点击颜色)
+#define kCommonBtnDisableBGColor    UIColorFromRGBV(0xb4b4b4)//灰色(禁用颜色)
 //字号
 #define kFont19                 fontWithSize(19)//顶部导航栏标题
 #define kFont18                 fontWithSize(18)//大按钮字体

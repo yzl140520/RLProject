@@ -7,8 +7,22 @@
 //
 
 #import "RLBaseViewController.h"
-
+#import "UIImage+ZTHColor.h"
 @implementation RLBaseViewController
+
+- (void)viewDidLoad{
+    [super viewDidLoad];
+    
+    //设置默认样式
+    self.view.backgroundColor = UIColorFromRGBV(0xf8f8f8);
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:kAppDefaultColor andSize:CGSizeMake(1, 1)] forBarMetrics:UIBarMetricsDefault];
+    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
+    [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
+    self.navigationController.navigationBar.translucent = NO;
+    
+}
 //导航栏设置成全应用统一样式,设置返回样式
 -(void)resetNavigationBarWithBackAction:(SEL)action  title:(NSString*)title{
     UIButton *left = [UIButton buttonWithType:UIButtonTypeCustom];
