@@ -59,6 +59,7 @@
 		17F9A3051DAA12AF00512756 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A3031DAA12AF00512756 /* NSDictionary+Safe.m */; };
 		17F9A30B1DAA13A700512756 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A3081DAA13A700512756 /* NSObject+Common.m */; };
 		17F9A30C1DAA13A700512756 /* NSObject+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A30A1DAA13A700512756 /* NSObject+HUD.m */; };
+		17F9A3101DAA15B500512756 /* RLDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A30F1DAA15B500512756 /* RLDatabase.m */; };
 		F117327DFE0AEEA51DBB1D08 /* libPods-RLProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 432612644F6ACBE6E5509F40 /* libPods-RLProject.a */; };
 /* End PBXBuildFile section */
 
@@ -184,6 +185,9 @@
 		17F9A3081DAA13A700512756 /* NSObject+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Common.m"; sourceTree = "<group>"; };
 		17F9A3091DAA13A700512756 /* NSObject+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HUD.h"; sourceTree = "<group>"; };
 		17F9A30A1DAA13A700512756 /* NSObject+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HUD.m"; sourceTree = "<group>"; };
+		17F9A30E1DAA15B500512756 /* RLDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLDatabase.h; sourceTree = "<group>"; };
+		17F9A30F1DAA15B500512756 /* RLDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLDatabase.m; sourceTree = "<group>"; };
+		17F9A3121DAA16A600512756 /* RLConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLConfig.h; sourceTree = "<group>"; };
 		432612644F6ACBE6E5509F40 /* libPods-RLProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RLProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3F1B8732BA17574C68D15D /* Pods-RLProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RLProject/Pods-RLProject.release.xcconfig"; sourceTree = "<group>"; };
 		C405C332266B12003B4F6133 /* Pods-RLProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RLProject/Pods-RLProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -291,6 +295,7 @@
 		17F9A2521DA9E4E600512756 /* CmDefine */ = {
 			isa = PBXGroup;
 			children = (
+				17F9A3111DAA169600512756 /* Config */,
 				17F9A2531DA9E4E600512756 /* 宏定义 */,
 				17F9A2541DA9E4E600512756 /* 常量定义 */,
 			);
@@ -372,6 +377,7 @@
 		17F9A2591DA9E4E600512756 /* 通用类 */ = {
 			isa = PBXGroup;
 			children = (
+				17F9A30D1DAA158A00512756 /* Database */,
 				17F9A2651DA9E67800512756 /* ZTHDateFormatterFactory.h */,
 				17F9A2661DA9E67800512756 /* ZTHDateFormatterFactory.m */,
 				17F9A2671DA9E67800512756 /* ZTHJsonUtils.h */,
@@ -623,6 +629,23 @@
 			path = NSObjectCategories;
 			sourceTree = "<group>";
 		};
+		17F9A30D1DAA158A00512756 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				17F9A30E1DAA15B500512756 /* RLDatabase.h */,
+				17F9A30F1DAA15B500512756 /* RLDatabase.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		17F9A3111DAA169600512756 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				17F9A3121DAA16A600512756 /* RLConfig.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		64373018B75D5429453F7EB7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -840,6 +863,7 @@
 				17F9A2FD1DA9F86B00512756 /* ZTHCustomPromptView.m in Sources */,
 				17F9A2761DA9E67800512756 /* ZTHVersion.m in Sources */,
 				17F9A2D91DA9E90000512756 /* UIImage+ZTHRoundCorner.m in Sources */,
+				17F9A3101DAA15B500512756 /* RLDatabase.m in Sources */,
 				17F9A2641DA9E53B00512756 /* ConstDefine.m in Sources */,
 				17F9A30B1DAA13A700512756 /* NSObject+Common.m in Sources */,
 				17F9A2D51DA9E90000512756 /* UIImage+ScaleImage.m in Sources */,
