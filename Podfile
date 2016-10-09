@@ -39,6 +39,7 @@ target 'RLProject' do
     #pod 'VWWPermissionKit', '~> 1.3.0'
     pod 'SDWebImage','3.7.6'
     pod 'Masonry','1.0.1'
+    pod 'WMPageController'
 
 #    pod 'SDWebImage/WebP'
 end
