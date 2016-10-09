@@ -23,4 +23,27 @@
     }
     return src;
 }
+
++ (BOOL)isBlankString:(NSString *)string {
+    BOOL result = NO;
+    
+    if (NULL == string || [string isEqual:nil] || [string isEqual:Nil])
+    {
+        result = YES;
+    }
+    else if ([string isEqual:[NSNull null]])
+    {
+        result = YES;
+    }
+    else if (0 == [string length] || 0 == [[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length])
+    {
+        result = YES;
+    }
+    else if([string isEqualToString:@"(null)"])
+    {
+        result = YES;
+    }
+    
+    return result;
+}
 @end

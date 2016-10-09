@@ -21,4 +21,6 @@
 + (BOOL)isEmptyStr:(NSString *)str;
 
 + (NSString*)safeString:(NSString*)src defaultValue:(NSString*)defaultValue;
+
++ (BOOL)isBlankString:(NSString *)string;
 @end

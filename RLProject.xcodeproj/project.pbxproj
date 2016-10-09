@@ -53,6 +53,12 @@
 		17F9A2F11DA9F5CA00512756 /* RLTwinkleLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2F01DA9F5CA00512756 /* RLTwinkleLoadView.m */; };
 		17F9A2F51DA9F6E600512756 /* RLStarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2F41DA9F6E600512756 /* RLStarButton.m */; };
 		17F9A2F91DA9F79400512756 /* RLCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2F81DA9F79400512756 /* RLCopyLabel.m */; };
+		17F9A2FD1DA9F86B00512756 /* ZTHCustomPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2FC1DA9F86B00512756 /* ZTHCustomPromptView.m */; };
+		17F9A2FF1DAA0F0C00512756 /* EffectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 17F9A2FE1DAA0F0C00512756 /* EffectImage.png */; };
+		17F9A3041DAA12AF00512756 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A3011DAA12AF00512756 /* NSDictionary+JSON.m */; };
+		17F9A3051DAA12AF00512756 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A3031DAA12AF00512756 /* NSDictionary+Safe.m */; };
+		17F9A30B1DAA13A700512756 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A3081DAA13A700512756 /* NSObject+Common.m */; };
+		17F9A30C1DAA13A700512756 /* NSObject+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A30A1DAA13A700512756 /* NSObject+HUD.m */; };
 		F117327DFE0AEEA51DBB1D08 /* libPods-RLProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 432612644F6ACBE6E5509F40 /* libPods-RLProject.a */; };
 /* End PBXBuildFile section */
 
@@ -167,6 +173,17 @@
 		17F9A2F41DA9F6E600512756 /* RLStarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLStarButton.m; sourceTree = "<group>"; };
 		17F9A2F71DA9F79400512756 /* RLCopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLCopyLabel.h; sourceTree = "<group>"; };
 		17F9A2F81DA9F79400512756 /* RLCopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLCopyLabel.m; sourceTree = "<group>"; };
+		17F9A2FB1DA9F86B00512756 /* ZTHCustomPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHCustomPromptView.h; sourceTree = "<group>"; };
+		17F9A2FC1DA9F86B00512756 /* ZTHCustomPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHCustomPromptView.m; sourceTree = "<group>"; };
+		17F9A2FE1DAA0F0C00512756 /* EffectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EffectImage.png; sourceTree = "<group>"; };
+		17F9A3001DAA12AF00512756 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		17F9A3011DAA12AF00512756 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		17F9A3021DAA12AF00512756 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		17F9A3031DAA12AF00512756 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		17F9A3071DAA13A700512756 /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
+		17F9A3081DAA13A700512756 /* NSObject+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Common.m"; sourceTree = "<group>"; };
+		17F9A3091DAA13A700512756 /* NSObject+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HUD.h"; sourceTree = "<group>"; };
+		17F9A30A1DAA13A700512756 /* NSObject+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HUD.m"; sourceTree = "<group>"; };
 		432612644F6ACBE6E5509F40 /* libPods-RLProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RLProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3F1B8732BA17574C68D15D /* Pods-RLProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RLProject/Pods-RLProject.release.xcconfig"; sourceTree = "<group>"; };
 		C405C332266B12003B4F6133 /* Pods-RLProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RLProject/Pods-RLProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -311,6 +328,7 @@
 		17F9A2561DA9E4E600512756 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				17F9A3061DAA13A700512756 /* NSObjectCategories */,
 				17F9A2781DA9E90000512756 /* NSDateCategories */,
 				17F9A27D1DA9E90000512756 /* NSDictionaryCategories */,
 				17F9A2801DA9E90000512756 /* NSMutableAttributeString */,
@@ -342,6 +360,7 @@
 		17F9A2581DA9E4E600512756 /* 通用UI */ = {
 			isa = PBXGroup;
 			children = (
+				17F9A2FA1DA9F86B00512756 /* customAlert */,
 				17F9A2F61DA9F77C00512756 /* RLCopyLabel */,
 				17F9A2F21DA9F6C900512756 /* RLStarButton */,
 				17F9A2EE1DA9F5AC00512756 /* RLTwinkleLoadView */,
@@ -434,6 +453,10 @@
 		17F9A27D1DA9E90000512756 /* NSDictionaryCategories */ = {
 			isa = PBXGroup;
 			children = (
+				17F9A3001DAA12AF00512756 /* NSDictionary+JSON.h */,
+				17F9A3011DAA12AF00512756 /* NSDictionary+JSON.m */,
+				17F9A3021DAA12AF00512756 /* NSDictionary+Safe.h */,
+				17F9A3031DAA12AF00512756 /* NSDictionary+Safe.m */,
 				17F9A27E1DA9E90000512756 /* NSDictionary+Accessors.h */,
 				17F9A27F1DA9E90000512756 /* NSDictionary+Accessors.m */,
 			);
@@ -564,6 +587,7 @@
 		17F9A2F21DA9F6C900512756 /* RLStarButton */ = {
 			isa = PBXGroup;
 			children = (
+				17F9A2FE1DAA0F0C00512756 /* EffectImage.png */,
 				17F9A2F31DA9F6E600512756 /* RLStarButton.h */,
 				17F9A2F41DA9F6E600512756 /* RLStarButton.m */,
 			);
@@ -577,6 +601,26 @@
 				17F9A2F81DA9F79400512756 /* RLCopyLabel.m */,
 			);
 			path = RLCopyLabel;
+			sourceTree = "<group>";
+		};
+		17F9A2FA1DA9F86B00512756 /* customAlert */ = {
+			isa = PBXGroup;
+			children = (
+				17F9A2FB1DA9F86B00512756 /* ZTHCustomPromptView.h */,
+				17F9A2FC1DA9F86B00512756 /* ZTHCustomPromptView.m */,
+			);
+			path = customAlert;
+			sourceTree = "<group>";
+		};
+		17F9A3061DAA13A700512756 /* NSObjectCategories */ = {
+			isa = PBXGroup;
+			children = (
+				17F9A3071DAA13A700512756 /* NSObject+Common.h */,
+				17F9A3081DAA13A700512756 /* NSObject+Common.m */,
+				17F9A3091DAA13A700512756 /* NSObject+HUD.h */,
+				17F9A30A1DAA13A700512756 /* NSObject+HUD.m */,
+			);
+			path = NSObjectCategories;
 			sourceTree = "<group>";
 		};
 		64373018B75D5429453F7EB7 /* Pods */ = {
@@ -704,6 +748,7 @@
 			files = (
 				17F9A22D1DA9CE5E00512756 /* LaunchScreen.storyboard in Resources */,
 				17F9A22A1DA9CE5E00512756 /* Assets.xcassets in Resources */,
+				17F9A2FF1DAA0F0C00512756 /* EffectImage.png in Resources */,
 				17F9A2251DA9CE5E00512756 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -784,6 +829,7 @@
 				17F9A2221DA9CE5E00512756 /* ViewController.m in Sources */,
 				17F9A2C51DA9E90000512756 /* NSMutableAttributedString+utils.m in Sources */,
 				17F9A21F1DA9CE5E00512756 /* AppDelegate.m in Sources */,
+				17F9A3051DAA12AF00512756 /* NSDictionary+Safe.m in Sources */,
 				17F9A2CE1DA9E90000512756 /* NSString+ZTHUtils.m in Sources */,
 				17F9A2C41DA9E90000512756 /* NSDictionary+Accessors.m in Sources */,
 				17F9A2711DA9E67800512756 /* ZTHDateFormatterFactory.m in Sources */,
@@ -791,14 +837,18 @@
 				17F9A2D71DA9E90000512756 /* UIImage+ZTHColor.m in Sources */,
 				17F9A2C91DA9E90000512756 /* NSString+MD5.m in Sources */,
 				17F9A2D11DA9E90000512756 /* UIButton+ZTHBtnLayout.m in Sources */,
+				17F9A2FD1DA9F86B00512756 /* ZTHCustomPromptView.m in Sources */,
 				17F9A2761DA9E67800512756 /* ZTHVersion.m in Sources */,
 				17F9A2D91DA9E90000512756 /* UIImage+ZTHRoundCorner.m in Sources */,
 				17F9A2641DA9E53B00512756 /* ConstDefine.m in Sources */,
+				17F9A30B1DAA13A700512756 /* NSObject+Common.m in Sources */,
 				17F9A2D51DA9E90000512756 /* UIImage+ScaleImage.m in Sources */,
+				17F9A30C1DAA13A700512756 /* NSObject+HUD.m in Sources */,
 				17F9A2731DA9E67800512756 /* ZTHSandbox.m in Sources */,
 				17F9A2D61DA9E90000512756 /* UIImage+ZTHAlpha.m in Sources */,
 				17F9A2CC1DA9E90000512756 /* NSString+Safe.m in Sources */,
 				17F9A2F51DA9F6E600512756 /* RLStarButton.m in Sources */,
+				17F9A3041DAA12AF00512756 /* NSDictionary+JSON.m in Sources */,
 				17F9A2DB1DA9E90000512756 /* UIImageView+load.m in Sources */,
 				17F9A2ED1DA9F40700512756 /* Utils+Camera.m in Sources */,
 				17F9A2D81DA9E90000512756 /* UIImage+ZTHResize.m in Sources */,
