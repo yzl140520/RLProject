@@ -41,6 +41,8 @@ DEFINE_SINGLETON(ZTHSystemInfo )
 + (BOOL)isPhoneRetina4;
 + (BOOL)isPhoneRetina47;
 + (BOOL)isPhoneRetina5;
++ (BOOL)isPhoneRetina6;
++ (BOOL)isPhoneRetina6s;
 + (BOOL)isPad;
 + (BOOL)isPadRetina;
 + (BOOL)isScreenSize:(CGSize)size;

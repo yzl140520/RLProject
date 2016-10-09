@@ -48,6 +48,8 @@
 		17F9A2E01DA9E90000512756 /* UIViewController+DismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2C11DA9E90000512756 /* UIViewController+DismissKeyboard.m */; };
 		17F9A2E41DA9EEA900512756 /* ZTHNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2E31DA9EEA900512756 /* ZTHNoDataView.m */; };
 		17F9A2E71DA9EF2400512756 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2E61DA9EF2400512756 /* Utils.m */; };
+		17F9A2EA1DA9F32F00512756 /* Utils+FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2E91DA9F32F00512756 /* Utils+FileManager.m */; };
+		17F9A2ED1DA9F40700512756 /* Utils+Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2EC1DA9F40700512756 /* Utils+Camera.m */; };
 		F117327DFE0AEEA51DBB1D08 /* libPods-RLProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 432612644F6ACBE6E5509F40 /* libPods-RLProject.a */; };
 /* End PBXBuildFile section */
 
@@ -152,6 +154,10 @@
 		17F9A2E31DA9EEA900512756 /* ZTHNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHNoDataView.m; sourceTree = "<group>"; };
 		17F9A2E51DA9EF2400512756 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		17F9A2E61DA9EF2400512756 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		17F9A2E81DA9F32F00512756 /* Utils+FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Utils+FileManager.h"; sourceTree = "<group>"; };
+		17F9A2E91DA9F32F00512756 /* Utils+FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Utils+FileManager.m"; sourceTree = "<group>"; };
+		17F9A2EB1DA9F40700512756 /* Utils+Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Utils+Camera.h"; sourceTree = "<group>"; };
+		17F9A2EC1DA9F40700512756 /* Utils+Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Utils+Camera.m"; sourceTree = "<group>"; };
 		432612644F6ACBE6E5509F40 /* libPods-RLProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RLProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3F1B8732BA17574C68D15D /* Pods-RLProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RLProject/Pods-RLProject.release.xcconfig"; sourceTree = "<group>"; };
 		C405C332266B12003B4F6133 /* Pods-RLProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RLProject/Pods-RLProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -316,6 +322,10 @@
 			children = (
 				17F9A2E51DA9EF2400512756 /* Utils.h */,
 				17F9A2E61DA9EF2400512756 /* Utils.m */,
+				17F9A2E81DA9F32F00512756 /* Utils+FileManager.h */,
+				17F9A2E91DA9F32F00512756 /* Utils+FileManager.m */,
+				17F9A2EB1DA9F40700512756 /* Utils+Camera.h */,
+				17F9A2EC1DA9F40700512756 /* Utils+Camera.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -750,8 +760,10 @@
 				17F9A2D61DA9E90000512756 /* UIImage+ZTHAlpha.m in Sources */,
 				17F9A2CC1DA9E90000512756 /* NSString+Safe.m in Sources */,
 				17F9A2DB1DA9E90000512756 /* UIImageView+load.m in Sources */,
+				17F9A2ED1DA9F40700512756 /* Utils+Camera.m in Sources */,
 				17F9A2D81DA9E90000512756 /* UIImage+ZTHResize.m in Sources */,
 				17F9A2D21DA9E90000512756 /* UIColor+ImageGetColor.m in Sources */,
+				17F9A2EA1DA9F32F00512756 /* Utils+FileManager.m in Sources */,
 				17F9A2721DA9E67800512756 /* ZTHJsonUtils.m in Sources */,
 				17F9A2741DA9E67800512756 /* ZTHSystemInfo.m in Sources */,
 				17F9A2C81DA9E90000512756 /* NSString+Category.m in Sources */,
