@@ -11,6 +11,7 @@
 #import "UIColor+ZTHImage.h"
 #import "NSMutableAttributedString+utils.h"
 #import "Utils.h"
+#import "NSString+Safe.h"
 @interface ZTHNoDataView()
 /*!
  *  @author yzl, 16-03-03 09:03:14
@@ -155,7 +156,7 @@
         
     }
     [self addSubview:self.messageLabel];
-    NSString* text = [ZTHUtils safeString:self.message defaultValue:@""];
+    NSString* text = [NSString safeString:self.message defaultValue:@""];
     NSMutableAttributedString* attributeString = [text attributeStringWithFont:self.messageLabel.font
                                                                      lineSpace:5
                                                                  textAlignment:NSTextAlignmentCenter];
@@ -173,7 +174,7 @@
     }];
     
     [self addSubview:self.detailLabel];
-    NSString* detailMessage = [ZTHUtils safeString:self.detailMessage defaultValue:@""];
+    NSString* detailMessage = [NSString safeString:self.detailMessage defaultValue:@""];
     CGRect detailRect = [detailMessage textRectWithFont:self.detailLabel.font
                                                    size:CGSizeMake(300, CGFLOAT_MAX)];
     
@@ -285,7 +286,7 @@
         return;
     }
     self.messageLabel.font = messageFont;
-    NSString* text = [ZTHUtils safeString:self.message defaultValue:@""];
+    NSString* text = [NSString safeString:self.message defaultValue:@""];
     NSMutableAttributedString* attributeString = [text attributeStringWithFont:self.messageLabel.font
                                                                      lineSpace:5
                                                                  textAlignment:NSTextAlignmentCenter];
@@ -318,7 +319,7 @@
         return;
     }
     self.detailLabel.font = messageFont;
-    NSString* detailMessage = [ZTHUtils safeString:self.detailMessage defaultValue:@""];
+    NSString* detailMessage = [NSString safeString:self.detailMessage defaultValue:@""];
     CGRect detailRect = [detailMessage textRectWithFont:self.detailLabel.font
                                                    size:CGSizeMake(300, CGFLOAT_MAX)];
     

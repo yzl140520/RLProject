@@ -19,4 +19,6 @@
  *  @return YES 为空，NO不为空
  */
 + (BOOL)isEmptyStr:(NSString *)str;
+
++ (NSString*)safeString:(NSString*)src defaultValue:(NSString*)defaultValue;
 @end

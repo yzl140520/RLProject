@@ -16,4 +16,11 @@
 + (BOOL)isEmptyStr:(NSString *)str {
     return (str && str.length) ? NO : YES;
 }
+
++ (NSString*)safeString:(NSString*)src defaultValue:(NSString*)defaultValue{
+    if (!src) {
+        return defaultValue?:@"";
+    }
+    return src;
+}
 @end
