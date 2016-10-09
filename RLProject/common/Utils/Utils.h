@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface Utils : NSObject
-
++ (CGSize)stringSizeWithString:(NSString *)string font:(CGFloat)labelFont;
 @end

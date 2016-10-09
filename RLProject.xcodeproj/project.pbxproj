@@ -60,6 +60,7 @@
 		17F9A30B1DAA13A700512756 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A3081DAA13A700512756 /* NSObject+Common.m */; };
 		17F9A30C1DAA13A700512756 /* NSObject+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A30A1DAA13A700512756 /* NSObject+HUD.m */; };
 		17F9A3101DAA15B500512756 /* RLDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A30F1DAA15B500512756 /* RLDatabase.m */; };
+		17F9A3161DAA1AFA00512756 /* RLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A3151DAA1AFA00512756 /* RLBaseViewController.m */; };
 		F117327DFE0AEEA51DBB1D08 /* libPods-RLProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 432612644F6ACBE6E5509F40 /* libPods-RLProject.a */; };
 /* End PBXBuildFile section */
 
@@ -188,6 +189,8 @@
 		17F9A30E1DAA15B500512756 /* RLDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLDatabase.h; sourceTree = "<group>"; };
 		17F9A30F1DAA15B500512756 /* RLDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLDatabase.m; sourceTree = "<group>"; };
 		17F9A3121DAA16A600512756 /* RLConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLConfig.h; sourceTree = "<group>"; };
+		17F9A3141DAA1AFA00512756 /* RLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLBaseViewController.h; sourceTree = "<group>"; };
+		17F9A3151DAA1AFA00512756 /* RLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLBaseViewController.m; sourceTree = "<group>"; };
 		432612644F6ACBE6E5509F40 /* libPods-RLProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RLProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3F1B8732BA17574C68D15D /* Pods-RLProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RLProject/Pods-RLProject.release.xcconfig"; sourceTree = "<group>"; };
 		C405C332266B12003B4F6133 /* Pods-RLProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RLProject/Pods-RLProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -441,6 +444,7 @@
 		17F9A2601DA9E4E600512756 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				17F9A3131DAA197B00512756 /* BaseViewController */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -644,6 +648,16 @@
 				17F9A3121DAA16A600512756 /* RLConfig.h */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		17F9A3131DAA197B00512756 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17F9A3141DAA1AFA00512756 /* RLBaseViewController.h */,
+				17F9A3151DAA1AFA00512756 /* RLBaseViewController.m */,
+			);
+			name = BaseViewController;
+			path = "../Network/请求类/BaseViewController";
 			sourceTree = "<group>";
 		};
 		64373018B75D5429453F7EB7 /* Pods */ = {
@@ -854,6 +868,7 @@
 				17F9A21F1DA9CE5E00512756 /* AppDelegate.m in Sources */,
 				17F9A3051DAA12AF00512756 /* NSDictionary+Safe.m in Sources */,
 				17F9A2CE1DA9E90000512756 /* NSString+ZTHUtils.m in Sources */,
+				17F9A3161DAA1AFA00512756 /* RLBaseViewController.m in Sources */,
 				17F9A2C41DA9E90000512756 /* NSDictionary+Accessors.m in Sources */,
 				17F9A2711DA9E67800512756 /* ZTHDateFormatterFactory.m in Sources */,
 				17F9A2751DA9E67800512756 /* ZTHUserDefaults.m in Sources */,
