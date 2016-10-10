@@ -55,6 +55,8 @@ PODS:
   - UIAlertView+Blocks (0.9)
   - UMengAnalytics-NO-IDFA (3.6.7)
   - WMPageController (1.9.6)
+  - YTKKeyValueStore (0.1.2):
+    - FMDB (~> 2.0)
   - YTKNetwork (2.0.1):
     - AFNetworking (~> 3.0)
   - YYCache (1.0.4)
@@ -91,6 +93,7 @@ DEPENDENCIES:
   - UIAlertView+Blocks
   - UMengAnalytics-NO-IDFA (~> 3.6.7)
   - WMPageController
+  - YTKKeyValueStore
   - YTKNetwork
   - YYCache (~> 1.0.3)
   - YYText (~> 1.0.5)
@@ -127,6 +130,7 @@ SPEC CHECKSUMS:
   UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
   UMengAnalytics-NO-IDFA: 6d02561a00579b2e37718f204eb81347df5d7b8b
   WMPageController: 23efe3512c7c5acf8678bcbda7206b3168900dd9
+  YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
   YTKNetwork: f21ad2073b3353a11d257593a2859f2904bbec75
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849

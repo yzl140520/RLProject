@@ -9,6 +9,12 @@
 #ifndef MacroDefine_h
 #define MacroDefine_h
 
+#if DEBUG
+#define RLLog(xx, ...)                  NSLog(@"%s(%d): " xx, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define RLLog(xx, ...)                  nil
+#endif
+
 ///------
 /// 生成单例的宏
 ///------
@@ -118,4 +124,7 @@ return shared##className; \
 #define kNilOrNull(__ref) (((__ref) == nil) || ([(__ref) isEqual:[NSNull null]]))
 
 #define delegateWindow               [[UIApplication sharedApplication].delegate window]
+
+#define BAD_NETWORK     @"网络连接超时（网络已断开），请稍后重试"
+
 #endif /* MacroDefine_h */

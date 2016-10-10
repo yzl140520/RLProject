@@ -9,10 +9,6 @@
 #ifndef RLConfig_h
 #define RLConfig_h
 
-#if DEBUG
-#define RLLog(xx, ...)                  NSLog(@"%s(%d): " xx, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
-#else
-#define RLLog(xx, ...)                  nil
-#endif
+#define SERVER_ADDRESS @"http://zths.szy.cn:4080/ZTHServer"
 
 #endif /* RLConfig_h */

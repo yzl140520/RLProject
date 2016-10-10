@@ -40,6 +40,7 @@ target 'RLProject' do
     pod 'SDWebImage','3.7.6'
     pod 'Masonry','1.0.1'
     pod 'WMPageController'
+    pod 'YTKKeyValueStore'
 
 #    pod 'SDWebImage/WebP'
 end

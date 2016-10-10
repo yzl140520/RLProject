@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1763057C1DAB6F4D00AD2699 /* RLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1763057B1DAB6F4D00AD2699 /* RLRequest.m */; };
+		176305821DAB78F900AD2699 /* GetShoolDetailInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 176305811DAB78F900AD2699 /* GetShoolDetailInfo.m */; };
+		176305A31DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 176305A21DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.m */; };
+		176305A61DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 176305A51DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.m */; };
 		17F9A21C1DA9CE5E00512756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A21B1DA9CE5E00512756 /* main.m */; };
 		17F9A21F1DA9CE5E00512756 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A21E1DA9CE5E00512756 /* AppDelegate.m */; };
 		17F9A2221DA9CE5E00512756 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2211DA9CE5E00512756 /* ViewController.m */; };
@@ -83,6 +87,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1763057A1DAB6F4D00AD2699 /* RLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLRequest.h; sourceTree = "<group>"; };
+		1763057B1DAB6F4D00AD2699 /* RLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLRequest.m; sourceTree = "<group>"; };
+		176305801DAB78F900AD2699 /* GetShoolDetailInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetShoolDetailInfo.h; sourceTree = "<group>"; };
+		176305811DAB78F900AD2699 /* GetShoolDetailInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetShoolDetailInfo.m; sourceTree = "<group>"; };
+		176305A11DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YTKBaseRequest+ZTRequest.h"; sourceTree = "<group>"; };
+		176305A21DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YTKBaseRequest+ZTRequest.m"; sourceTree = "<group>"; };
+		176305A41DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHSchoolDetailInfoResult.h; sourceTree = "<group>"; };
+		176305A51DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHSchoolDetailInfoResult.m; sourceTree = "<group>"; };
+		176305A71DAB9B3900AD2699 /* CmDefinePublichHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmDefinePublichHeader.h; sourceTree = "<group>"; };
 		17F9A2171DA9CE5E00512756 /* RLProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F9A21B1DA9CE5E00512756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17F9A21D1DA9CE5E00512756 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -304,6 +317,7 @@
 				17F9A3111DAA169600512756 /* Config */,
 				17F9A2531DA9E4E600512756 /* 宏定义 */,
 				17F9A2541DA9E4E600512756 /* 常量定义 */,
+				176305A71DAB9B3900AD2699 /* CmDefinePublichHeader.h */,
 			);
 			path = CmDefine;
 			sourceTree = "<group>";
@@ -403,6 +417,8 @@
 		17F9A25A1DA9E4E600512756 /* Entity(数据结构) */ = {
 			isa = PBXGroup;
 			children = (
+				176305A41DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.h */,
+				176305A51DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.m */,
 			);
 			path = "Entity(数据结构)";
 			sourceTree = "<group>";
@@ -435,6 +451,10 @@
 		17F9A25E1DA9E4E600512756 /* 网络层 */ = {
 			isa = PBXGroup;
 			children = (
+				176305A11DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.h */,
+				176305A21DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.m */,
+				1763057A1DAB6F4D00AD2699 /* RLRequest.h */,
+				1763057B1DAB6F4D00AD2699 /* RLRequest.m */,
 			);
 			path = "网络层";
 			sourceTree = "<group>";
@@ -442,6 +462,8 @@
 		17F9A25F1DA9E4E600512756 /* 请求类 */ = {
 			isa = PBXGroup;
 			children = (
+				176305801DAB78F900AD2699 /* GetShoolDetailInfo.h */,
+				176305811DAB78F900AD2699 /* GetShoolDetailInfo.m */,
 			);
 			path = "请求类";
 			sourceTree = "<group>";
@@ -883,6 +905,7 @@
 				17F9A2FD1DA9F86B00512756 /* ZTHCustomPromptView.m in Sources */,
 				17F9A2761DA9E67800512756 /* ZTHVersion.m in Sources */,
 				17F9A2D91DA9E90000512756 /* UIImage+ZTHRoundCorner.m in Sources */,
+				176305821DAB78F900AD2699 /* GetShoolDetailInfo.m in Sources */,
 				17F9A3101DAA15B500512756 /* RLDatabase.m in Sources */,
 				17F9A2641DA9E53B00512756 /* ConstDefine.m in Sources */,
 				17F9A30B1DAA13A700512756 /* NSObject+Common.m in Sources */,
@@ -899,6 +922,7 @@
 				17F9A2D21DA9E90000512756 /* UIColor+ImageGetColor.m in Sources */,
 				17F9A2EA1DA9F32F00512756 /* Utils+FileManager.m in Sources */,
 				17F9A2721DA9E67800512756 /* ZTHJsonUtils.m in Sources */,
+				176305A61DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.m in Sources */,
 				17F9A2741DA9E67800512756 /* ZTHSystemInfo.m in Sources */,
 				17F9A2F11DA9F5CA00512756 /* RLTwinkleLoadView.m in Sources */,
 				17F9A2C81DA9E90000512756 /* NSString+Category.m in Sources */,
@@ -906,9 +930,11 @@
 				17F9A21C1DA9CE5E00512756 /* main.m in Sources */,
 				17F9A3191DAA2C1400512756 /* RLGlobalDataManager.m in Sources */,
 				17F9A2D41DA9E90000512756 /* UIImage+ImageEffects.m in Sources */,
+				176305A31DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.m in Sources */,
 				17F9A2F91DA9F79400512756 /* RLCopyLabel.m in Sources */,
 				17F9A2E01DA9E90000512756 /* UIViewController+DismissKeyboard.m in Sources */,
 				17F9A2281DA9CE5E00512756 /* RLProject.xcdatamodeld in Sources */,
+				1763057C1DAB6F4D00AD2699 /* RLRequest.m in Sources */,
 				17F9A2DE1DA9E90000512756 /* UITableView+noDataDefaultView.m in Sources */,
 				17F9A2C31DA9E90000512756 /* NSDateFormatter+ZTHFactory.m in Sources */,
 				17F9A2E41DA9EEA900512756 /* ZTHNoDataView.m in Sources */,
