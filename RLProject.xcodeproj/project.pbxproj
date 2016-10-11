@@ -87,6 +87,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1706A5C71DAC791B001C1A32 /* DataBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseDefine.h; sourceTree = "<group>"; };
 		1763057A1DAB6F4D00AD2699 /* RLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLRequest.h; sourceTree = "<group>"; };
 		1763057B1DAB6F4D00AD2699 /* RLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLRequest.m; sourceTree = "<group>"; };
 		176305801DAB78F900AD2699 /* GetShoolDetailInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetShoolDetailInfo.h; sourceTree = "<group>"; };
@@ -326,6 +327,7 @@
 			isa = PBXGroup;
 			children = (
 				17F9A2611DA9E50D00512756 /* MacroDefine.h */,
+				1706A5C71DAC791B001C1A32 /* DataBaseDefine.h */,
 			);
 			path = "宏定义";
 			sourceTree = "<group>";

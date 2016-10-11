@@ -12,4 +12,8 @@
 DEFINE_SINGLETON(RLDatabase)
 - (void)openCurrentUserDB;
 
+- (BOOL)insertTestId:(NSString*)testId content:(NSString*)content;
+
+- (BOOL)executeSql:(NSString*)sql;
+- (void)queryAll;
 @end

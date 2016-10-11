@@ -43,10 +43,6 @@
  */
 @property (assign,nonatomic) NSInteger imProvider;
 
-///**
-// *  学校类型 1:报备园  2:正式园 3:演试园 4：潜在园
-// */
-//@property (assign, nonatomic) NSInteger currentSchoolTypes;
 
 @end
 
@@ -57,22 +53,6 @@
 @property(strong,nonatomic)NSString* o_schoolTelphone;//学校的电话号码
 @property(strong,nonatomic)NSString* defaultpwd;//学校的默认密码
 
-//schooltype	int	必填
-//如果老师未加入任何正式学校，该字段不需要	1-报备园;2-正式园;3-演示园;4-潜在园
-//demotype	int	必填
-//如果老师未加入任何正式学校，该字段不需要	1-正常、2-家长演示、3-园长演示
-//(家长端、园丁端只要是2就提示)
-//status	Integer	必填(潜在园相关)[原1302合并]	0:审核中 1:被拒
-//agentname	String	选填(潜在园相关) [原1302合并]	代理商姓名(被拒时)
-//agentphone	String	选填(潜在园相关) [原1302合并]	代理商电话(被拒时)
-/*
- * 如果老师未加入任何正式学校，该字段不需要	1-报备园;2-正式园;3-演示园;4-潜在园
- */
-//@property (assign,nonatomic) NSInteger schoolType;
-///*
-// * 如果老师未加入任何正式学校，该字段不需要	1-正常、2-家长演示、3-园长演示 (家长端、园丁端只要是2就提示)
-// */
-//@property (assign,nonatomic) NSInteger demoType;
 /*
  *必填(潜在园相关)[原1302合并]	0:审核中 1:被拒
  */

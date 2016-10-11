@@ -12,5 +12,5 @@
 #import "RLConfig.h"
 #import "MacroDefine.h"
 #import "ConstDefine.h"
-
+#import "DataBaseDefine.h"
 #endif /* CmDefinePublichHeader_h */

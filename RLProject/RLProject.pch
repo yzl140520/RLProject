@@ -16,7 +16,7 @@
 #import <UIKit/UIKit.h>
 #import <Masonry.h>
 #import <Foundation/NSObjCRuntime.h>
-#import "RLConfig.h"
+#import "CmDefinePublichHeader.h"
 #import "Utils.h"
 #import <JSONKit.h>
 #import "RLConfig.h"
