@@ -87,4 +87,9 @@
 
 //返回字符串所占用的尺寸.
 - (CGSize)sizeWithFont:(UIFont *)font maxSize:(CGSize)maxSize;
+
+//判断是否是手机号码或者邮箱
+- (BOOL)isPhoneNo;
+- (BOOL)isEmail;
+- (BOOL)isGK;
 @end

@@ -41,6 +41,9 @@ target 'RLProject' do
     pod 'Masonry','1.0.1'
     pod 'WMPageController'
     pod 'YTKKeyValueStore'
+    pod 'Mantle'
+    pod 'MTLManagedObjectAdapter' #(was 1.0-1) 已更新
+    pod 'Overcoat'
 
 #    pod 'SDWebImage/WebP'
 end

@@ -85,7 +85,7 @@
 //HTTP类型
 - (YTKRequestMethod)requestMethod
 {
-    return YTKRequestMethodPOST;
+    return YTKRequestMethodPost;
 }
 
 /// 请求的SerializerType

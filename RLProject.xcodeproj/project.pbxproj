@@ -239,6 +239,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1706A5C81DACBDF7001C1A32 /* 网络架构2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "网络架构2";
+			sourceTree = "<group>";
+		};
 		17F9A20E1DA9CE5E00512756 = {
 			isa = PBXGroup;
 			children = (
@@ -444,6 +451,7 @@
 		17F9A25D1DA9E4E600512756 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				1706A5C81DACBDF7001C1A32 /* 网络架构2 */,
 				17F9A25E1DA9E4E600512756 /* 网络层 */,
 				17F9A25F1DA9E4E600512756 /* 请求类 */,
 			);

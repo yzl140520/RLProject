@@ -12,6 +12,7 @@
 #import "QNUploadManager.h"
 #import <Foundation/Foundation.h>
 
+@class QNHttpManager;
 @interface QNResumeUpload : NSObject
 
 - (instancetype)initWithFile:(id<QNFileDelegate>)file
