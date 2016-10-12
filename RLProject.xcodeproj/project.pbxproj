@@ -11,11 +11,15 @@
 		176305821DAB78F900AD2699 /* GetShoolDetailInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 176305811DAB78F900AD2699 /* GetShoolDetailInfo.m */; };
 		176305A31DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 176305A21DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.m */; };
 		176305A61DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 176305A51DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.m */; };
+		17F4F1441DADC23A00B58C06 /* Employee+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F4F13D1DADC23A00B58C06 /* Employee+CoreDataProperties.m */; };
+		17F4F1451DADC23A00B58C06 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F4F13F1DADC23A00B58C06 /* Employee.m */; };
+		17F4F1461DADC23A00B58C06 /* Department+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F4F1411DADC23A00B58C06 /* Department+CoreDataProperties.m */; };
+		17F4F1471DADC23A00B58C06 /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F4F1431DADC23A00B58C06 /* Department.m */; };
 		17F9A21C1DA9CE5E00512756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A21B1DA9CE5E00512756 /* main.m */; };
 		17F9A21F1DA9CE5E00512756 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A21E1DA9CE5E00512756 /* AppDelegate.m */; };
 		17F9A2221DA9CE5E00512756 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2211DA9CE5E00512756 /* ViewController.m */; };
 		17F9A2251DA9CE5E00512756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F9A2231DA9CE5E00512756 /* Main.storyboard */; };
-		17F9A2281DA9CE5E00512756 /* RLProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2261DA9CE5E00512756 /* RLProject.xcdatamodeld */; };
+		17F9A2281DA9CE5E00512756 /* Company.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2261DA9CE5E00512756 /* Company.xcdatamodeld */; };
 		17F9A22A1DA9CE5E00512756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F9A2291DA9CE5E00512756 /* Assets.xcassets */; };
 		17F9A22D1DA9CE5E00512756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F9A22B1DA9CE5E00512756 /* LaunchScreen.storyboard */; };
 		17F9A2381DA9CE5E00512756 /* RLProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2371DA9CE5E00512756 /* RLProjectTests.m */; };
@@ -31,7 +35,6 @@
 		17F9A2C31DA9E90000512756 /* NSDateFormatter+ZTHFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A27C1DA9E90000512756 /* NSDateFormatter+ZTHFactory.m */; };
 		17F9A2C41DA9E90000512756 /* NSDictionary+Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A27F1DA9E90000512756 /* NSDictionary+Accessors.m */; };
 		17F9A2C51DA9E90000512756 /* NSMutableAttributedString+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2821DA9E90000512756 /* NSMutableAttributedString+utils.m */; };
-		17F9A2C81DA9E90000512756 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A28A1DA9E90000512756 /* NSString+Category.m */; };
 		17F9A2C91DA9E90000512756 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A28C1DA9E90000512756 /* NSString+MD5.m */; };
 		17F9A2CB1DA9E90000512756 /* NSString+RemoveEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2901DA9E90000512756 /* NSString+RemoveEmoji.m */; };
 		17F9A2CC1DA9E90000512756 /* NSString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F9A2921DA9E90000512756 /* NSString+Safe.m */; };
@@ -97,6 +100,14 @@
 		176305A41DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHSchoolDetailInfoResult.h; sourceTree = "<group>"; };
 		176305A51DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHSchoolDetailInfoResult.m; sourceTree = "<group>"; };
 		176305A71DAB9B3900AD2699 /* CmDefinePublichHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmDefinePublichHeader.h; sourceTree = "<group>"; };
+		17F4F13C1DADC23A00B58C06 /* Employee+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Employee+CoreDataProperties.h"; sourceTree = "<group>"; };
+		17F4F13D1DADC23A00B58C06 /* Employee+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Employee+CoreDataProperties.m"; sourceTree = "<group>"; };
+		17F4F13E1DADC23A00B58C06 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		17F4F13F1DADC23A00B58C06 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		17F4F1401DADC23A00B58C06 /* Department+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Department+CoreDataProperties.h"; sourceTree = "<group>"; };
+		17F4F1411DADC23A00B58C06 /* Department+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Department+CoreDataProperties.m"; sourceTree = "<group>"; };
+		17F4F1421DADC23A00B58C06 /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		17F4F1431DADC23A00B58C06 /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
 		17F9A2171DA9CE5E00512756 /* RLProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F9A21B1DA9CE5E00512756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17F9A21D1DA9CE5E00512756 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,7 +115,7 @@
 		17F9A2201DA9CE5E00512756 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		17F9A2211DA9CE5E00512756 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		17F9A2241DA9CE5E00512756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		17F9A2271DA9CE5E00512756 /* RLProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RLProject.xcdatamodel; sourceTree = "<group>"; };
+		17F9A2271DA9CE5E00512756 /* Company.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Company.xcdatamodel; sourceTree = "<group>"; };
 		17F9A2291DA9CE5E00512756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17F9A22C1DA9CE5E00512756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17F9A22E1DA9CE5E00512756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,8 +149,6 @@
 		17F9A27F1DA9E90000512756 /* NSDictionary+Accessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Accessors.m"; sourceTree = "<group>"; };
 		17F9A2811DA9E90000512756 /* NSMutableAttributedString+utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+utils.h"; sourceTree = "<group>"; };
 		17F9A2821DA9E90000512756 /* NSMutableAttributedString+utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+utils.m"; sourceTree = "<group>"; };
-		17F9A2891DA9E90000512756 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
-		17F9A28A1DA9E90000512756 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
 		17F9A28B1DA9E90000512756 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		17F9A28C1DA9E90000512756 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		17F9A28F1DA9E90000512756 /* NSString+RemoveEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RemoveEmoji.h"; sourceTree = "<group>"; };
@@ -287,7 +296,7 @@
 				17F9A2291DA9CE5E00512756 /* Assets.xcassets */,
 				17F9A22B1DA9CE5E00512756 /* LaunchScreen.storyboard */,
 				17F9A22E1DA9CE5E00512756 /* Info.plist */,
-				17F9A2261DA9CE5E00512756 /* RLProject.xcdatamodeld */,
+				17F9A2261DA9CE5E00512756 /* Company.xcdatamodeld */,
 				17F9A21A1DA9CE5E00512756 /* Supporting Files */,
 			);
 			path = RLProject;
@@ -428,6 +437,14 @@
 			children = (
 				176305A41DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.h */,
 				176305A51DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.m */,
+				17F4F13C1DADC23A00B58C06 /* Employee+CoreDataProperties.h */,
+				17F4F13D1DADC23A00B58C06 /* Employee+CoreDataProperties.m */,
+				17F4F13E1DADC23A00B58C06 /* Employee.h */,
+				17F4F13F1DADC23A00B58C06 /* Employee.m */,
+				17F4F1401DADC23A00B58C06 /* Department+CoreDataProperties.h */,
+				17F4F1411DADC23A00B58C06 /* Department+CoreDataProperties.m */,
+				17F4F1421DADC23A00B58C06 /* Department.h */,
+				17F4F1431DADC23A00B58C06 /* Department.m */,
 			);
 			path = "Entity(数据结构)";
 			sourceTree = "<group>";
@@ -522,8 +539,6 @@
 		17F9A2881DA9E90000512756 /* NSStringCategories */ = {
 			isa = PBXGroup;
 			children = (
-				17F9A2891DA9E90000512756 /* NSString+Category.h */,
-				17F9A28A1DA9E90000512756 /* NSString+Category.m */,
 				17F9A28B1DA9E90000512756 /* NSString+MD5.h */,
 				17F9A28C1DA9E90000512756 /* NSString+MD5.m */,
 				17F9A28F1DA9E90000512756 /* NSString+RemoveEmoji.h */,
@@ -921,10 +936,14 @@
 				17F9A30B1DAA13A700512756 /* NSObject+Common.m in Sources */,
 				17F9A2D51DA9E90000512756 /* UIImage+ScaleImage.m in Sources */,
 				17F9A30C1DAA13A700512756 /* NSObject+HUD.m in Sources */,
+				17F4F1461DADC23A00B58C06 /* Department+CoreDataProperties.m in Sources */,
+				17F4F1471DADC23A00B58C06 /* Department.m in Sources */,
 				17F9A2731DA9E67800512756 /* ZTHSandbox.m in Sources */,
 				17F9A2D61DA9E90000512756 /* UIImage+ZTHAlpha.m in Sources */,
+				17F4F1441DADC23A00B58C06 /* Employee+CoreDataProperties.m in Sources */,
 				17F9A2CC1DA9E90000512756 /* NSString+Safe.m in Sources */,
 				17F9A2F51DA9F6E600512756 /* RLStarButton.m in Sources */,
+				17F4F1451DADC23A00B58C06 /* Employee.m in Sources */,
 				17F9A3041DAA12AF00512756 /* NSDictionary+JSON.m in Sources */,
 				17F9A2DB1DA9E90000512756 /* UIImageView+load.m in Sources */,
 				17F9A2ED1DA9F40700512756 /* Utils+Camera.m in Sources */,
@@ -935,7 +954,6 @@
 				176305A61DAB95EA00AD2699 /* ZTHSchoolDetailInfoResult.m in Sources */,
 				17F9A2741DA9E67800512756 /* ZTHSystemInfo.m in Sources */,
 				17F9A2F11DA9F5CA00512756 /* RLTwinkleLoadView.m in Sources */,
-				17F9A2C81DA9E90000512756 /* NSString+Category.m in Sources */,
 				17F9A2E71DA9EF2400512756 /* Utils.m in Sources */,
 				17F9A21C1DA9CE5E00512756 /* main.m in Sources */,
 				17F9A3191DAA2C1400512756 /* RLGlobalDataManager.m in Sources */,
@@ -943,7 +961,7 @@
 				176305A31DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.m in Sources */,
 				17F9A2F91DA9F79400512756 /* RLCopyLabel.m in Sources */,
 				17F9A2E01DA9E90000512756 /* UIViewController+DismissKeyboard.m in Sources */,
-				17F9A2281DA9CE5E00512756 /* RLProject.xcdatamodeld in Sources */,
+				17F9A2281DA9CE5E00512756 /* Company.xcdatamodeld in Sources */,
 				1763057C1DAB6F4D00AD2699 /* RLRequest.m in Sources */,
 				17F9A2DE1DA9E90000512756 /* UITableView+noDataDefaultView.m in Sources */,
 				17F9A2C31DA9E90000512756 /* NSDateFormatter+ZTHFactory.m in Sources */,
@@ -1203,13 +1221,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		17F9A2261DA9CE5E00512756 /* RLProject.xcdatamodeld */ = {
+		17F9A2261DA9CE5E00512756 /* Company.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				17F9A2271DA9CE5E00512756 /* RLProject.xcdatamodel */,
+				17F9A2271DA9CE5E00512756 /* Company.xcdatamodel */,
 			);
-			currentVersion = 17F9A2271DA9CE5E00512756 /* RLProject.xcdatamodel */;
-			path = RLProject.xcdatamodeld;
+			currentVersion = 17F9A2271DA9CE5E00512756 /* Company.xcdatamodel */;
+			path = Company.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

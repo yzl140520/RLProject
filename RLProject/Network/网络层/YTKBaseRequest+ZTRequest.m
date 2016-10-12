@@ -24,7 +24,7 @@
 
 - (NSError *)err
 {
-    return [[NSError alloc] initWithDomain:self.error == nil ? @"解析错误" : BAD_NETWORK
+    return [[NSError alloc] initWithDomain:self.requestOperationError == nil ? @"解析错误" : BAD_NETWORK
                                       code:0
                                   userInfo:nil];
 }

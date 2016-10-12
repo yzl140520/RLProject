@@ -18,6 +18,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [RLDatabase getInstance];
+    
+//    _managedObjectContext = [[NSManagedObjectContext alloc]initWithConcurrencyType:NSMainQueueConcurrencyType];
+//    
+//    NSURL* modelPath = [[NSBundle mainBundle]URLForResource:@"Company" withExtension:@"momd"];
+//    _managedObjectModel = [[NSManagedObjectModel alloc]initWithContentsOfURL:modelPath];
+//    _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc]initWithManagedObjectModel:_managedObjectModel];
+//    
+//    NSString* dataPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).lastObject;
+//    [dataPath stringByAppendingFormat:@"/%@.sqlite", @"Company"];
+//    [_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:[NSURL URLWithString:dataPath] options:nil error:nil];
+//    _managedObjectContext.persistentStoreCoordinator = _persistentStoreCoordinator;
+    
     return YES;
 }
 
