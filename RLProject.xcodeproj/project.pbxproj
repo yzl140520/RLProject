@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		170E20461DAF609B00061F14 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 170E20451DAF609B00061F14 /* UIView+Common.m */; };
+		170E204E1DAF633D00061F14 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 170E204D1DAF633D00061F14 /* UIColor+expanded.m */; };
 		1763057C1DAB6F4D00AD2699 /* RLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1763057B1DAB6F4D00AD2699 /* RLRequest.m */; };
 		176305821DAB78F900AD2699 /* GetShoolDetailInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 176305811DAB78F900AD2699 /* GetShoolDetailInfo.m */; };
 		176305A31DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 176305A21DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.m */; };
@@ -94,6 +95,8 @@
 		1706A5C71DAC791B001C1A32 /* DataBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseDefine.h; sourceTree = "<group>"; };
 		170E20441DAF609B00061F14 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		170E20451DAF609B00061F14 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		170E204C1DAF633D00061F14 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		170E204D1DAF633D00061F14 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
 		1763057A1DAB6F4D00AD2699 /* RLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLRequest.h; sourceTree = "<group>"; };
 		1763057B1DAB6F4D00AD2699 /* RLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLRequest.m; sourceTree = "<group>"; };
 		176305801DAB78F900AD2699 /* GetShoolDetailInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetShoolDetailInfo.h; sourceTree = "<group>"; };
@@ -568,6 +571,8 @@
 		17F9A29E1DA9E90000512756 /* UIColorCategories */ = {
 			isa = PBXGroup;
 			children = (
+				170E204C1DAF633D00061F14 /* UIColor+expanded.h */,
+				170E204D1DAF633D00061F14 /* UIColor+expanded.m */,
 				17F9A29F1DA9E90000512756 /* UIColor+ImageGetColor.h */,
 				17F9A2A01DA9E90000512756 /* UIColor+ImageGetColor.m */,
 				17F9A2A11DA9E90000512756 /* UIColor+ZTHImage.h */,
@@ -936,6 +941,7 @@
 				17F9A2761DA9E67800512756 /* ZTHVersion.m in Sources */,
 				17F9A2D91DA9E90000512756 /* UIImage+ZTHRoundCorner.m in Sources */,
 				176305821DAB78F900AD2699 /* GetShoolDetailInfo.m in Sources */,
+				170E204E1DAF633D00061F14 /* UIColor+expanded.m in Sources */,
 				17F9A3101DAA15B500512756 /* RLDatabase.m in Sources */,
 				17F9A2641DA9E53B00512756 /* ConstDefine.m in Sources */,
 				17F9A30B1DAA13A700512756 /* NSObject+Common.m in Sources */,

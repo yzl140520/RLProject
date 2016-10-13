@@ -11,6 +11,7 @@
 #import "ZTHSchoolDetailInfoResult.h"
 #import "YTKBaseRequest+ZTRequest.h"
 #import "RLDatabase.h"
+#import "UIView+Common.h"
 
 @interface ViewController ()
 
@@ -22,18 +23,22 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    UIButton* send = [[UIButton alloc]initWithFrame:CGRectMake(10, 50, 100, 45)];
-    [send setBackgroundColor:[UIColor redColor]];
-    [send setTitle:@"发送" forState:UIControlStateNormal];
-    [send addTarget:self action:@selector(send:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:send];
-    
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [[RLDatabase getInstance]executeSql:[NSString stringWithFormat:@"alter table %@ add new_column text",TABLE_TEST]];
-        [[RLDatabase getInstance] insertTestId:@"3" content:@"1"];
-        [[RLDatabase getInstance] insertTestId:@"4" content:@"2"];
-        [[RLDatabase getInstance]queryAll];
-    });
+//    UIButton* send = [[UIButton alloc]initWithFrame:CGRectMake(10, 50, 100, 45)];
+//    [send setBackgroundColor:[UIColor redColor]];
+//    [send setTitle:@"发送" forState:UIControlStateNormal];
+//    [send addTarget:self action:@selector(send:) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:send];
+//    
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [[RLDatabase getInstance]executeSql:[NSString stringWithFormat:@"alter table %@ add new_column text",TABLE_TEST]];
+//        [[RLDatabase getInstance] insertTestId:@"3" content:@"1"];
+//        [[RLDatabase getInstance] insertTestId:@"4" content:@"2"];
+//        [[RLDatabase getInstance]queryAll];
+//    });
+    UIView* view = [[UIView alloc]initWithFrame:CGRectMake(10, 50, 100, 45)];
+    [view addRoundingCorners:(UIRectCornerBottomRight |UIRectCornerTopRight) cornerRadii:CGSizeMake(8, 8)];
+    view.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view];
  
 }
 
