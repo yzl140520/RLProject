@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170E20461DAF609B00061F14 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 170E20451DAF609B00061F14 /* UIView+Common.m */; };
 		1763057C1DAB6F4D00AD2699 /* RLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1763057B1DAB6F4D00AD2699 /* RLRequest.m */; };
 		176305821DAB78F900AD2699 /* GetShoolDetailInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 176305811DAB78F900AD2699 /* GetShoolDetailInfo.m */; };
 		176305A31DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 176305A21DAB955D00AD2699 /* YTKBaseRequest+ZTRequest.m */; };
@@ -91,6 +92,8 @@
 
 /* Begin PBXFileReference section */
 		1706A5C71DAC791B001C1A32 /* DataBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseDefine.h; sourceTree = "<group>"; };
+		170E20441DAF609B00061F14 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		170E20451DAF609B00061F14 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
 		1763057A1DAB6F4D00AD2699 /* RLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLRequest.h; sourceTree = "<group>"; };
 		1763057B1DAB6F4D00AD2699 /* RLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLRequest.m; sourceTree = "<group>"; };
 		176305801DAB78F900AD2699 /* GetShoolDetailInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetShoolDetailInfo.h; sourceTree = "<group>"; };
@@ -613,6 +616,8 @@
 		17F9A2BC1DA9E90000512756 /* UIViewCategories */ = {
 			isa = PBXGroup;
 			children = (
+				170E20441DAF609B00061F14 /* UIView+Common.h */,
+				170E20451DAF609B00061F14 /* UIView+Common.m */,
 				17F9A2BD1DA9E90000512756 /* UIView+ZTHExtension.h */,
 				17F9A2BE1DA9E90000512756 /* UIView+ZTHExtension.m */,
 			);
@@ -966,6 +971,7 @@
 				17F9A2DE1DA9E90000512756 /* UITableView+noDataDefaultView.m in Sources */,
 				17F9A2C31DA9E90000512756 /* NSDateFormatter+ZTHFactory.m in Sources */,
 				17F9A2E41DA9EEA900512756 /* ZTHNoDataView.m in Sources */,
+				170E20461DAF609B00061F14 /* UIView+Common.m in Sources */,
 				17F9A2DF1DA9E90000512756 /* UIView+ZTHExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
